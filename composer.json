@@ -1,0 +1,20 @@
+{
+    "name": "david/proyectoc",
+    "description": "Primer proyecto PHP con composer",
+    "type": "project",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "David\\Proyectoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Martínez de la Torre"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.8.0"
+    }
+}

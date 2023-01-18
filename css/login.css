@@ -1,0 +1,182 @@
+/* GENERAL */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.error-session {
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: 5rem auto;
+    background-color: black;
+    height: 3rem;
+    color: red;
+}
+
+.error-wrap {
+    height: 20%;
+}
+
+.error {
+    color: red;
+    margin: 1rem auto;
+}
+
+/* LOGIN */
+
+form {
+    width: 30%;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.row label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.row input {
+    padding: 10px 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    width: 100px;
+    margin-left: auto;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.btn-password {
+  width: 150px;
+}
+
+
+.btn:hover {
+    opacity: 80%;
+}
+
+
+
+.welcome {
+    padding: 2rem 2rem;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.welcome span {
+    color: coral;
+}
+
+
+
+/* INDEX */
+
+.no-log  {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-log p, .no-log a {
+    text-align: center;
+}
+
+/* TABLE */
+
+table,
+    .addProduct {
+      margin: 0 auto;
+      font-family: helvetica;
+      border-spacing: 0px;
+      width: 60%
+    }
+
+    .addProduct {
+      margin-top: 1rem;
+    }
+
+    td,
+    th {
+      border: 1px solid;
+      padding: 10px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+    }
+
+    thead th {
+      background: hsl(20, 50%, 70%);
+    }
+
+    tfoot {
+      bottom: 0;
+      z-index: 2;
+    }
+
+    tfoot td {
+      background: hsl(20, 50%, 70%);
+    }
+
+    .tituloTable {
+      text-align: left;
+    }
+
+    .codProd {
+      width: 5%;
+      text-align: center;
+    }
+
+    .descripcion {
+      width: 22%;
+    }
+
+    .precioUnidad,
+    .unidades,
+    .coste {
+      width: 5%;
+    }
+
+    .divCodProd
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+
+    /* PASSWORD PAGE */
+
+    .form-password {
+      width: 100%;
+    }
+
+    .container-password{
+      height: 80vh;
+    }
+
+    .password-title {
+      margin-bottom: 1rem;
+    }
+
+    .success {
+      color: green;
+      margin: 1rem auto;
+      text-align: center;
+    }
